@@ -1,0 +1,161 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Recuerdos Inolvidables</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }body {
+  background-color: #f3e8d5;
+  font-family: 'Georgia', serif;
+  color: #3b2f2f;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #8B5E3C;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.diseno-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.diseno {
+  text-align: center;
+  max-width: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.diseno img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.diseno img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.botones-disenos button {
+  background-color: #b89052;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botones-disenos button:hover {
+  background-color: #a97435;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+
+  </style>
+</head>
+<body>  <!-- Barra de navegación fija -->  <header>
+    <h1>RECUERDOS INOLVIDABLES</h1>
+    <nav>
+      <a href="#inicio">INICIO</a>
+      <a href="#disenos">FOTOS</a>
+      <a href="#contacto">CONTACTO</a>
+    </nav>
+  </header>  <!-- Sección 1: INICIO -->  <section class="section" id="inicio">
+    <p>
+      Recuerdos de las defensas de proyectos para Bolivia produce.
+    </p>
+  </section>  <!-- Sección 2: DISEÑOS -->  <section class="section" id="disenos">
+    <h2>RECUERDOS DE JURADO 16-05-2025.</h2>
+    <div class="diseno-container">
+      <div class="diseno">
+        <img src="20250516_091915_0000.jpg" alt="Diseño 1">
+        <div class="botones-disenos">
+          <button>RECUERDO 1</button>
+        </div>
+      </div>
+      <div class="diseno">
+        <img src="20250516_091916_0001.jpg" alt="Diseño 2">
+        <div class="botones-disenos">
+          <button>RECUERDO 2</button>
+        </div>
+      </div>
+      <div class="diseno">
+        <img src="20250516_091916_0002.jpg" alt="Diseño 3">
+        <div class="botones-disenos">
+          <button>RECUERDO 3</button>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Sección 3: CONTACTO -->  <section class="section" id="contacto">
+    <div class="contacto">
+      <h2>Contáctanos</h2>
+      <p>OFICINA PRINCIPAL</p>
+    </div>
+    <div class="redes">
+      <h2>Redes Sociales</h2>
+      <p>Facebook | Instagram | Twitter</p>
+    </div>
+    <footer>
+      <p>BÁCHILLERATO | TÉCNICO | HUMANÍSTICO</p>
+    </footer>
+  </section></body>
+</html>
